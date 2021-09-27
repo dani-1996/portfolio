@@ -37,7 +37,7 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline">Portfolio</h1>
             <h3>Front-End</h3>
-            <h4> HTML CSS JAVSCRIPT REACT</h4>
+            <h4> HTML CSS JAVSCRIPT REACT TEST</h4>
             <hr />
             <ul className="social">
            <a className="smoothscroll" href="#about"> <EmailIcon  fontSize="large"/></a>

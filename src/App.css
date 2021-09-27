@@ -94,20 +94,32 @@ img:hover {
 
 @media only screen and (max-width: 800px) {
     .project-description{
-    margin: 0!important;
+    margin-left: 10px!important;
       padding:0!important;
+     
 
     }
     .project{
         display: flex!important;
         flex-direction: column!important;
-        justify-content: center!important;
-        align-items: center!important;
+        margin-left: 15px!important;
+        
+       
+        
+    }
+    .typo{
+        font-size:2rem!important;
     }
     .project-image{
         width: 300px!important;
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: center!important;
+        align-items: center!important;
+        margin-leftt: 30px!important;
     }
     .fadein{
         opacity: 1!important;
     }
+   
   }

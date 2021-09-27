@@ -35,7 +35,7 @@ const Project = ({projectNumber,projectName,
             </Grid>
   
             <Grid item xs={8}>
-              <div className="project-image" ><a  target="_blank"href={link} ><img classname="project-image"src={image}/></a></div> 
+              <div className="project-image" ><a  target="_blank"href={link} ><img src={image}/></a></div> 
               
            <Button  target="_blank"href={link}className= "btn" size="large" color="secondary">Zum Projekt  </Button>
           
