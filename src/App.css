@@ -1,0 +1,113 @@
+
+
+.pic {
+    height: 100px;
+}
+
+.link-portfolio{
+
+font-size:  50px!important;
+margin-bottom: 50px!important
+}
+
+.br{
+    font-size: 20px!important;
+}
+
+.abstand {
+    margin: 5000px!important;
+}
+
+img:hover {
+  
+    border:2px solid #fff;
+    
+    box-shadow:  5px -5px 10px #ccc;
+    -moz-box-shadow: 5px -5px 10px  #ccc;
+    -webkit-box-shadow: 5px -5px 10px  #ccc;
+    -khtml-box-shadow: 5px -5px  10px #ccc;
+  }
+.card {
+    background-color: rgb(206, 188, 154)!important
+}
+
+.card-image {
+    height: 50rem
+}
+.portfolio{
+    color:white !important;
+}
+
+.typo{
+    color:rgb(238, 218, 218) !important;
+}
+
+.project-description{
+    margin-left: 80px!important;
+    display: flex!important;
+    flex-direction: column!important;
+    color:white !important;
+    justify-content: center!important;
+}
+.project{
+    display: flex!important;
+    flex-direction: row!important;
+    padding-top:50px!important;
+    padding-bottom:50px!important;
+    border-bottom: 1px solid white!important;
+    color:white !important;
+   
+
+}
+
+
+.btn{
+    /* color: white !important;; */
+    font-size: 2rem !important;
+    background-color:rgb(40, 43, 43)!important;
+}
+.btn:hover{
+    color: rgb(253, 253, 253)!important;
+}
+
+.project-image{
+    width: 500px!important;
+}
+
+.project-span{
+    background-color:wheat!important;
+    height: 200px !important;;
+    width:500px!important;
+
+}
+
+.fadein {
+    /* opacity: 0.8 !important;;
+    transition: 0.5s ease!important; */
+    }
+    
+    .fadein:hover{
+    opacity: 1 !important;;
+    transition: 0.5s ease!important;
+    background-color: rgba(48, 48, 48, 0.541)!important;
+    }
+
+@media only screen and (max-width: 800px) {
+    .project-description{
+    margin: 0!important;
+      padding:0!important;
+
+    }
+    .project{
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .project-image{
+        width: 300px!important;
+    }
+    .fadein{
+        opacity: 1!important;
+    }
+  }
