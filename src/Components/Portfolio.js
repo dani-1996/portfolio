@@ -75,7 +75,7 @@ const Portfolio = () =>  {
             secondDescription="material-ui" 
             thirdDescription="redux-toolkit"
             image="Krypto.jpg"
-            link="https://cryptonewssteini.netlify.app"
+            link="https://cryptostatsnews.netlify.app"
              />
 
 </div>

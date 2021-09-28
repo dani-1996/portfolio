@@ -33,9 +33,7 @@ class About extends Component {
                   <h2>Kontakt</h2>
                   <p className="address">
 						   <span>Daniel Steinhauser</span><br />
-						   <span>Tannenweg 13<br />
-						         72535 Heroldstatt
-                   </span><br />
+						   
 						   <span>017632609876</span><br />
                      <span> danielsteinhauser1906@gmail.com </span>
 					   </p>

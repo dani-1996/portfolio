@@ -1,4 +1,12 @@
+body{
+    background-color: #485461;
+background-image: linear-gradient(315deg, #245588 0%, #061525 74%);
 
+  
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .pic {
     height: 100px;
@@ -18,7 +26,7 @@ margin-bottom: 50px!important
     margin: 5000px!important;
 }
 
-img:hover {
+/* img:hover {
   
     border:2px solid #fff;
     
@@ -26,7 +34,7 @@ img:hover {
     -moz-box-shadow: 5px -5px 10px  #ccc;
     -webkit-box-shadow: 5px -5px 10px  #ccc;
     -khtml-box-shadow: 5px -5px  10px #ccc;
-  }
+  } */
 .card {
     background-color: rgb(206, 188, 154)!important
 }
@@ -54,7 +62,9 @@ img:hover {
     flex-direction: row!important;
     padding-top:50px!important;
     padding-bottom:50px!important;
-    border-bottom: 1px solid white!important;
+    /* border-right: 200px solid rgb(243, 234, 234)!important;
+     border-left: 200px solid rgb(243, 234, 234)!important; */
+     border-bottom: 10px solid rgb(243, 234, 234)!important;
     color:white !important;
    
 
@@ -116,7 +126,7 @@ img:hover {
         flex-direction: row!important;
         justify-content: center!important;
         align-items: center!important;
-        margin-leftt: 30px!important;
+        margin-left: 30px!important;
     }
     .fadein{
         opacity: 1!important;
