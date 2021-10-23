@@ -1,0 +1,20 @@
+  {/* // <Grid className="project-description" item xs={4}>
+                    // <Typography className="typo" variant="h3"   >{projectNumber}</Typography>
+                    //     <Typography color="primary" variant="h3" >{projectName}</Typography>
+                    //     {descriptionList.map((item)=>( */}
+
+                    {/* //         <Typography className="typo" variant="h5" color="secondary" >{item}</Typography>
+                    //     ))}
+                    // </Grid>
+                    
+                            
+                    // <Grid item xs={8}>
+                    //     <div className="project-image" ><a  target="_blank"href={link} ><img src={image}/></a></div> 
+                
+                    //     <Button  target="_blank"href={link}className= "btn" size="large" color="secondary">Zum Projekt  </Button>
+            
+                    // </Grid>
+                    // <Grid>
+                    //     <Typography className="typo" variant="body" color="secondary" >{additionalText}</Typography>
+                    // </Grid>
+ */}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../../src/App"
 
 import EmailIcon from '@material-ui/icons/Email'
 
@@ -35,9 +36,11 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">PORTFOLIO</h1>
-            <h3>Front-End</h3>
-            <h4> HTML CSS JAVSCRIPT REACT </h4>
+      
+            <h1 className="writeAnimation">PORTFOLIO</h1>
+            <h1> Daniel Steinhauser </h1>
+            <p style={{fontSize:"25px", color:"rgb(0, 224, 253)"}} >Front-End Entwickler</p>
+            <p className="textAnimation" style={{fontSize:"25px", color:"rgb(0, 224, 253)"}} >HTML CSS JAVASCRIPT REACT</p>
             <hr />
             <ul className="social">
            <a className="smoothscroll" href="#about"> <EmailIcon  fontSize="large"/></a>

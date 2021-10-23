@@ -4,6 +4,7 @@ import "../App.css"
 import Project from "./Project"
 
 import { makeStyles } from '@material-ui/core/styles';
+import memories from "../images/memories.jpg"
 
 
 
@@ -56,7 +57,7 @@ const Portfolio = () =>  {
             thirdDescription="YouTube-Api"
             image="utub.jpg"
             link="https://utub.netlify.app"
-            
+            additionalText="Eine Suchmaschine die mit der YouTube API verbunden ist."
              />
             
 
@@ -67,6 +68,7 @@ const Portfolio = () =>  {
             thirdDescription="Commerce.js"
             image="kommerz.jpg"
             link="https://kommerz.netlify.app"
+            additionalText="Ein e-Commerce Shop der mit einer API verbunden ist, welche es zulässt einfach Produkte, Preise und Information hinzuzufügen und zu verwalten."
              />
 
 <Project  projectName="Crypotverse"
@@ -76,6 +78,22 @@ const Portfolio = () =>  {
             thirdDescription="redux-toolkit"
             image="Krypto.jpg"
             link="https://cryptostatsnews.netlify.app"
+            additionalText= "Eine Plattform die über alle Kryptowährungen relevante Informationen verfügt.
+            Es können einzelne Kryptowährungen ausgewählt werden um detailierte Informationen zu erhalten."
+             />
+
+<Project  projectName="social-media-App memories"
+            projectNumber="#4"
+             firstDescription="React + Redux"
+            secondDescription="material-ui" 
+            thirdDescription="node.js + express"
+            fourthDescription="MongoDB"
+            image={memories}
+            link="https://memoriesbydaniel.netlify.app"
+            additionalText="Eine Social Media App zum erstellen von Erinnerungen. 
+            Das Backend und die API wurden mit node.js und express erstellt und anschließend auf heroku gehostet.
+            Die Erinnerungen können von jedem bearbeitet werden und sind Öffentlich. Die Erinnerungen werden mithilfe der Datenbank MongoDB gepeichert.
+            "
              />
 
 </div>
