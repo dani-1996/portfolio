@@ -35,7 +35,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Portfolio</h1>
+            <h1 className="responsive-headline">PORTFOLIO</h1>
             <h3>Front-End</h3>
             <h4> HTML CSS JAVSCRIPT REACT </h4>
             <hr />
