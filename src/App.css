@@ -107,11 +107,11 @@ margin-bottom: 50px!important
    
   
 
-  .container{
+  /* .container{
       
       padding-bottom: 200px;
     
-  }
+  } */
 
   /* .abstand{
       height: 20px!important;
@@ -121,9 +121,9 @@ margin-bottom: 50px!important
   .container {
     padding:50px;
     border-bottom:0px solid rgba(255, 255, 255, 0.993);
-    border-top:5px solid rgba(255, 255, 255, 0.993);
-    border-left:25px solid rgba(255, 255, 255, 0.993);
-    border-right:25px solid rgba(255, 255, 255, 0.993);
+    border-top:5px solid rgba(9, 58, 122, 0.144);
+    /* border-left:25px solid rgba(255, 255, 255, 0.993);
+    border-right:25px solid rgba(255, 255, 255, 0.993); */
     
     
     box-shadow: -4px -11px 91px 27px rgba(0,0,0,0.58) inset;
@@ -131,8 +131,13 @@ margin-bottom: 50px!important
     -moz-box-shadow: -4px -11px 91px 27px rgba(0,0,0,0.58) inset;
 }
 
-
+.card{
+    width: 80%!important;
+    background-color: rgba(240, 248, 255, 0.062)!important;
+}
   
- 
+.image {
+    border-radius: 5%!important;
+  }
 
 
