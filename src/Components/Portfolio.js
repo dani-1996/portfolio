@@ -68,7 +68,7 @@ const Portfolio = () =>  {
             thirdDescription="Commerce.js"
             image="kommerz.jpg"
             link="https://kommerz.netlify.app"
-            additionalText="Ein e-Commerce Shop der mit einer API verbunden ist, welche es zulässt einfach Produkte, Preise und Information hinzuzufügen und zu verwalten."
+            additionalText="Ein e-Commerce Shop der mit Commerce.js und einer API verbunden ist, welche es zulässt Produkte, Preise und Informationen hinzuzufügen und zu verwalten."
              />
 
 <Project  projectName="Crypotverse"
