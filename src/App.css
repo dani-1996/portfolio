@@ -131,6 +131,12 @@ margin-bottom: 50px!important
     -moz-box-shadow: -4px -11px 91px 27px rgba(0,0,0,0.58) inset;
 }
 
+.card:hover{
+    background:rgb(255, 255, 255)!important;
+    opacity: 0.9;
+    /* transition-delay:.1s; */
+}
+
 .card{
     width: 80%!important;
     background-color: rgba(240, 248, 255, 0.062)!important;

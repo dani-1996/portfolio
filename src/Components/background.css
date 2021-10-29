@@ -1,18 +1,15 @@
 body {
-	background: linear-gradient(-45deg, #000000, #420808, #05011a, #010a33)!important;
-	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
-	height: 100vh;
+    width: 100%;
+    height: 40vh;
+    background-size: 200% 200%;
+    background-image: repeating-linear-gradient(
+		-45deg, #000000, #5e0505, #05011a, #071d83
+	);
+    animation: diagonal alternate 4s infinite;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+@keyframes diagonal {
+    0% {background-position: 0% 50%}
+    100% {background-position: 100% 50%}
 }
+
