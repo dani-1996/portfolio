@@ -5,8 +5,11 @@ import Project from "./Project"
 
 import { makeStyles } from '@material-ui/core/styles';
 import memories from "../images/memories.jpg"
+import crwn from "../images/CRWN-Clothing.jpg"
 
 
+
+import { Card, CardActions,CardContent, CardMedia,Button,Typography } from "@material-ui/core"
 
 
 
@@ -96,6 +99,16 @@ const Portfolio = () =>  {
             "
              />
 
+<Project  projectName="CRWN Clothing Shop"
+            projectNumber="#5"
+             firstDescription="React + Redux + material ui"
+            secondDescription="Google Firebase" 
+            thirdDescription="Stripe.js"
+            
+            image={crwn}
+            link="https://best-cloth-in-town.netlify.app/"
+            additionalText="Ein E-Commerce Shop mit folgenden Funktionen: Authentifizierung und anlegen von Kundenkontos mithilfe von Google Firebase sowie die Anmeldung über Google. Die Website enthält einen voll funktionsfähigen Warenkorb und über Stripe.js lassen sich Zahlungen tätigen."
+             />
 </div>
     )}
   
